@@ -1,0 +1,15 @@
+1. To display all directory:
+	ls
+2. To clear screen:
+	clear
+3. To show the current working directory:
+	pwd
+4. To create a file and insert text:
+	vim <filename>
+	=> inside the editor hit insert key to starting texting once finished hit esc key and type ":wq!" to exit
+5. To create a file:
+	touch <filename>
+6. To check the text
+	cat <filename>
+
+
