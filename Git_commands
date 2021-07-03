@@ -1,0 +1,31 @@
+1.To create an empty local repository--.git folder
+  git init
+2.To add file into Staging area
+  git add <filename>
+3.To commit file into Local repository
+  git commit -m <some comments on commits>
+4. Can combine the add and commit commands
+  git commit -a -m <some comments on commits>
+ 5.The add and commit in same line using ;
+  git add <filename>; git commit -m <some comments on commits>
+ 6. To dispaly log
+    git log
+ 7. To show status
+    git status
+ 8. To show the difference between commits in Working Directory(WD) and Staging area(S)
+    git diff <filename>
+ 9. To show the difference between commits in Last commit & Working Directory(WD)
+    git diff HEAD <filename>  => HEAD is pointing to the last commit
+ 10. To show the difference between commits in Last commit & Staging(S)
+    git diff -staged HEAD <filename>
+ 11.To show the difference between commits 
+    git diff <commitID> <commitID> <filename>
+ 12.To show the difference between Master and branch(test) 
+    git diff master <branchname>
+  13. To show the difference between Local repo Master and Remote repo Master
+     git diff master origin/master  =>origin master is the remote repo
+  14.To show all te commits
+    git log --oneline
+  
+  
+  
