@@ -26,6 +26,22 @@
      git diff master origin/master  =>origin master is the remote repo
   14.To show all te commits
     git log --oneline
-  
+  15.To revert staging a file
+ 	git checkout -- <filename>
+16. To reset commits
+	git reset <mode> <commitID>   =><mode> can be mixed(default)/soft/hard 
+17. To discard changes in staging area
+	git reset <filename>
+18.To show all branches
+	git branch    => output shows * in one of the branch means current
+19. To create branch
+	git branch <branchname>
+20. To switch between branches
+	git checkout <branchname>
+21. To create a branch and switch the branch
+	git checkout -b <branchname>
+
+
+
   
   
