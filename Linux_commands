@@ -6,7 +6,7 @@
 	pwd
 4. To create a file and insert text:
 	vim <filename>
-	=> inside the editor hit insert key to starting texting once finished hit esc key and type ":wq!" to exit
+	=> inside the editor hit insert key to starting texting once finished hit esc key and type ":wq!" to exit and hit dd to delete lines
 5. To create a file:
 	touch <filename>
 6. To check the text
