@@ -40,6 +40,17 @@
 	git checkout <branchname>
 21. To create a branch and switch the branch
 	git checkout -b <branchname>
+22.To merge commits to Main branch(to be done in branch)
+	git merge <mainbranch>
+23.To delete branch after merging to the main branch
+	git branch -d <branchnae>
+24. To show the merge graphically
+	git log --oneline --graph
+25. To do rebase/merge 3 way style but not creating a final merge commit
+two steps: 1. In branch:  git rebase master
+			2. In master: git merge <branchname>	
+		
+
 
 
 
